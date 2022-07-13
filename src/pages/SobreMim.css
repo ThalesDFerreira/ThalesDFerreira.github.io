@@ -11,13 +11,26 @@ body {
   background-position: center top;
 }
 
+.container-aboult {
+  display: flex;
+}
+
+.abolt-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .image-avatar {
   margin-left: 30px;
   margin-top: 10px;
-  max-width: 200px;
-  max-height: 200px;
-  width: auto;
-  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#minha-imagem {
+  border-radius: 20%;
+  margin-top: 20px;
 }
 
 .text {

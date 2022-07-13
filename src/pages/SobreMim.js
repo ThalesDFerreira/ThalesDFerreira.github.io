@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import "./SobreMim.css";
-import avatarBracos from '../assets/avatar-bracos.png';
+import fotoThales from '../assets/fotoThales.jpg'
 
 class SobreMim extends React.Component {
   render() {
@@ -9,17 +9,22 @@ class SobreMim extends React.Component {
       <>
         <Header />
         <main>
-          <div>
-            <img className="image-avatar" src={avatarBracos} alt="Projetos" />
-            <h1 className="text">Sobre Mim</h1>
+          <div className="container-aboult">
+            <div className="abolt-img">
+              <img className="image-avatar" id="minha-imagem" src={fotoThales} alt="Thales" />
+            </div>
+            <div className="abolt-img">
+            </div>
           </div>
+          <h1 className="text">Sobre Mim</h1>
           <div>
-            <div>
-              <p className="text">Olá, eu sou o Thales David Ferreira !</p>
+            <div className="container-sobre-mim">
+
+              <p className="text">Olá novamente! Como dito anteriormente eu me chamo Thales David Ferreira !</p>
               <p className="text">Se chegou até aqui, você provavelmente gostaria de saber mais sobre mim e minha trajetória, não é mesmo?</p>
               <p className="text">Sou natural de Porto Velho, Estado de Rondônia.</p>
               <p className="text">Atualmente moro na cidade de Franca, Estado de São Paulo.</p>
-              <p className="text">Sou bacharel em Direito pela Universidade de Franca e Advogado.</p>
+              <p className="text">Tenho formação de bacharel em Direito pela Universidade de Franca e conquistei o título de Advogado ao passar na Ordem dos Advogados do Brasil.</p>
               <p className="text">Em toda a minha vida, sempre me brilhou os olhos, no que diz respeito à programação e a tecnologia de um modo geral.</p>
               <p className="text">Certamente, irei alcançar meus objetivos pessoais e profissionais, após o período de aprendizado na Trybe.</p>
               <p className="text">Acredito ser bem determinado, assertivo, organizado e resiliênte.</p>
