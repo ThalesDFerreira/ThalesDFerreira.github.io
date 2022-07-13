@@ -17,8 +17,8 @@ class Home extends React.Component {
             <div>
               <img className="image-avatar" src={AvatarJoia} alt="Home" />
               <h1 className="text" id="text1">Seja Bem Vindo !</h1>
-              <h2 className="text" id="text2">Muito prazer, eu sou o Thales Ferreira e esse é o meu portfólio.</h2>
-              <h2 className="text" id="text3">Vamos nos conhecer melhor ? O que gostaria de vêr primeiro ?</h2>
+              <h2 className="text" id="text2">Olá, muito prazer! Meu nome é Thales Ferreira sou advogado e esses são alguns trabalhos do meu portfólio.</h2>
+              <h2 className="text" id="text3">O que você gostaria de ver primeiro?</h2>
             </div>
             <div className="div-container-conteudo">
               <div className="links-conteudo">
