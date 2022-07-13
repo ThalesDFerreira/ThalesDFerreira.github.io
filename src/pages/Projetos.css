@@ -11,6 +11,14 @@ body {
   background-position: center top;
 }
 
+.text {
+  color: white;
+  text-shadow: rgb(188, 182, 182) 0.1em 0.1em 0.2em;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+
 .image-avatar {
   margin-left: 30px;
   margin-top: 10px;
@@ -20,22 +28,14 @@ body {
   height: auto;
 }
 
-.text {
-  color: white;
-  text-shadow: rgb(188, 182, 182) 0.1em 0.1em 0.2em;
-  margin: 25px;
-  display: flex;
-  justify-content: center;
-}
-
-.div-container-conteudo {
+.div-container-projects {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   margin-top: 30px;
 }
 
-.links-conteudo {
+.links-container {
   background-color: rgb(226, 222, 222);
   border-radius: 30px;
   border: rgb(226, 222, 222) solid 2px;
@@ -43,12 +43,13 @@ body {
   margin: 30px;
 }
 
-.links-conteudo:hover {
+.links-container:hover {
   background-color: rgba(206, 203, 203, 0.75);
   box-shadow: none;
 }
 
-.links-conteudo h2 {
+.links-container h2 {
+  margin: 25px;
   font-size: 20px;
   display: flex;
   flex-flow: row wrap;
@@ -58,7 +59,7 @@ body {
   text-decoration: none;
 }
 
-.image-cards {
+.image-link {
   border-radius: 30px;
   width: 300px;
   height: 200px;
