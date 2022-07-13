@@ -15,7 +15,7 @@ class Home extends React.Component {
         <main>
           <div id="container-div-main">
             <div>
-              <img className="image-avatar" src={AvatarJoia} alt="Projetos" />
+              <img className="image-avatar" src={AvatarJoia} alt="Home" />
               <h1 className="text" id="text1">Seja Bem Vindo !</h1>
               <h2 className="text" id="text2">Muito prazer, eu sou o Thales Ferreira e esse é o meu portfólio.</h2>
               <h2 className="text" id="text3">Vamos nos conhecer melhor ? O que gostaria de vêr primeiro ?</h2>
