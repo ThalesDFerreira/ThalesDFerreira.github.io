@@ -19,16 +19,18 @@ class Header extends React.Component {
   render() {
     return (
       <header id="header">
-        <h3>Portfólio Dev</h3>
+        <Link style={{ paddingLeft: 13, textDecoration: 'none' }} to="/">
+          <h3>Portfólio Dev</h3>
+        </Link>
         <nav id="nav">
           <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" onClick={this.toggleMenu}>Menu
             <span id="hamburger" />
           </button>
           <ul id="menu" role="menu">
-            <li><Link className="link-li" id="link1" to="/">Início</Link></li>
-            <li><Link className="link-li" id="link2" to="/projects">Projetos</Link></li>
-            <li><Link className="link-li" id="link3" to="/contacts">Contatos</Link></li>
-            <li><Link className="link-li" id="link4" to="/aboult">Sobre mim</Link></li>
+            <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link1" to="/">Início</Link></li>
+            <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link2" to="/projects">Projetos</Link></li>
+            <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link3" to="/contacts">Contatos</Link></li>
+            <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link4" to="/aboult">Sobre mim</Link></li>
           </ul>
         </nav>
       </header >
