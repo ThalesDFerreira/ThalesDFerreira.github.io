@@ -1,11 +1,15 @@
 import React from 'react';
+import Header from '../components/Header';
 
 class SobreMim extends React.Component {
   render() {
     return (
-      <div>
-        <p>Sobre Mim</p>
-      </div>
+      <>
+        <Header />
+        <main>
+          <p>Sobre Mim</p>
+        </main>
+      </>
     );
   }
 }

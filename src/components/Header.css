@@ -17,6 +17,8 @@
 h3 {
   font-size: 40px;
   font-weight: bold;
+  color: black;
+  text-shadow: rgb(57, 57, 57) 0.1em 0.1em 0.2em;
 }
 
 #header {
@@ -27,7 +29,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #e7e7e7;
+  background: rgb(226, 222, 222);
 }
 
 #menu {
@@ -36,7 +38,7 @@ h3 {
   width: 100%;
   top: 70px;
   right: 0px;
-  background: #e7e7e7;
+  background: rgb(226, 222, 222);
   transition: 0.6s;
   z-index: 1000;
   height: 0px;
@@ -46,19 +48,15 @@ h3 {
 
 .link-li {
   display: block;
-  padding: 0.5rem;
+  padding: 1rem 0;
+  margin: 0 1rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 }
 
 #nav.active #menu {
   height: calc(100vh - 70px);
   visibility: visible;
   overflow-y: auto;
-}
-
-.link-li {
-  padding: 1rem 0;
-  margin: 0 1rem;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 }
 
 #btn-mobile {
