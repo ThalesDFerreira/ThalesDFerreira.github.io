@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-import avatarPiscada from '../assets/avatar-piscada.png';
 import LogoGmail from '../assets/gmail.png';
 import LogoLinkedin from '../assets/linkedin.png';
 import LogoWhatsApp from '../assets/whatsapp.png';
@@ -12,11 +11,11 @@ import "./Contatos.css";
 class Contatos extends React.Component {
   render() {
     return (
-      <>
+      <div className="container-contatos">
         <Header />
         <main>
           <div>
-            <img className="image-avatar" src={avatarPiscada} alt="Contatos" />
+            {/* <img className="image-avatar" src={} alt="Contatos" /> */}
             <h1 className="text">Contatos</h1>
           </div>
           <div className="div-container-contatos">
@@ -52,7 +51,7 @@ class Contatos extends React.Component {
             </div>
           </div>
         </main>
-      </>
+      </div>
 
     );
   }

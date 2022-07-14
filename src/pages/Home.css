@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url(../assets/background2.jpg);
+.container-main {
+  background-image: url(../assets/background1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

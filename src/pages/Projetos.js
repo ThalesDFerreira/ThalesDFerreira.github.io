@@ -1,16 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
 import "./Projetos.css";
-import AvatarPensativo from '../assets/avatar-pensativo.png';
 
 class Projetos extends React.Component {
   render() {
     return (
-      <>
+      <div className="container-projetos">
         <Header />
         <main>
           <div>
-            <img className="image-avatar" src={AvatarPensativo} alt="Projetos" />
+            {/* <img className="image-avatar" src={} alt="Projetos" /> */}
             <h1 className="text">Principais Projetos</h1>
           </div>
           <div>
@@ -37,7 +36,7 @@ class Projetos extends React.Component {
           </div>
 
         </main>
-      </>
+      </div>
     );
   }
 }
