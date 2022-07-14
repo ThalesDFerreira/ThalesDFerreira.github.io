@@ -6,7 +6,7 @@ import fotoThales from '../assets/fotoThales.jpg'
 class SobreMim extends React.Component {
   render() {
     return (
-      <>
+      <div className="container-aboult">
         <Header />
         <main>
           <div className="container-aboult">
@@ -19,7 +19,6 @@ class SobreMim extends React.Component {
           <h1 className="text">Sobre Mim</h1>
           <div>
             <div className="container-sobre-mim">
-
               <p className="text">Olá novamente! Como dito anteriormente eu me chamo Thales David Ferreira !</p>
               <p className="text">Se chegou até aqui, você provavelmente gostaria de saber mais sobre mim e minha trajetória, não é mesmo?</p>
               <p className="text">Sou natural de Porto Velho, Estado de Rondônia.</p>
@@ -33,7 +32,7 @@ class SobreMim extends React.Component {
             </div>
           </div>
         </main>
-      </>
+      </div>
     );
   }
 }

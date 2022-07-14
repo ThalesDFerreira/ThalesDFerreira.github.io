@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import "./Home.css";
-import AvatarJoia from '../assets/avatar-joia.png';
 import LogoProjects from '../assets/projetos.jpg';
 import LogoContats from '../assets/contatos.jpg';
 import LogoAboult from '../assets/aboult.jpg';
@@ -10,12 +9,12 @@ import LogoAboult from '../assets/aboult.jpg';
 class Home extends React.Component {
   render() {
     return (
-      <>
+      <div className="container-main">
         <Header />
         <main>
           <div id="container-div-main">
             <div>
-              <img className="image-avatar" src={AvatarJoia} alt="Home" />
+              {/* <img className="image-avatar" src={} alt="Home" /> */}
               <h1 className="text" id="text1">Seja Bem Vindo !</h1>
               <h2 className="text" id="text2">Olá, muito prazer! Meu nome é Thales Ferreira sou advogado e esses são alguns trabalhos do meu portfólio.</h2>
               <h2 className="text" id="text3">O que você gostaria de ver primeiro?</h2>
@@ -42,7 +41,7 @@ class Home extends React.Component {
             </div>
           </div>
         </main>
-      </>
+      </div>
     );
   }
 }
