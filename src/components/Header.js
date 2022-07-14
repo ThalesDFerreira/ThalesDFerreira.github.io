@@ -20,10 +20,10 @@ class Header extends React.Component {
     return (
       <header id="header">
         <Link style={{ paddingLeft: 13, textDecoration: 'none' }} to="/">
-          <h3>Portfólio Dev</h3>
+          <h3>Developer</h3>
         </Link>
         <nav id="nav">
-          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" onClick={this.toggleMenu}>Menu
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" onClick={this.toggleMenu}>
             <span id="hamburger" />
           </button>
           <ul id="menu" role="menu">

@@ -4,40 +4,29 @@
   box-sizing: border-box;
 }
 
-.link-li {
-  color: black;
-  font-family: sans-serif;
-}
-
-.link-li:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-
 h3 {
-  font-size: 40px;
-  font-weight: bold;
-  color: black;
-  text-shadow: rgb(57, 57, 57) 0.1em 0.1em 0.2em;
+  font-size: 30px;
+  color: rgb(3, 219, 94);
 }
 
 #header {
-  font-size: 30px;
+  font-size: 20px;
   box-sizing: border-box;
-  height: 70px;
+  height: 50px;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(226, 222, 222);
+  background: rgb(38, 39, 46);
 }
 
 #menu {
   display: block;
   position: absolute;
   width: 100%;
-  top: 70px;
+  top: 50px;
   right: 0px;
-  background: rgb(226, 222, 222);
+  background: rgb(38, 39, 46);
   transition: 0.6s;
   z-index: 1000;
   height: 0px;
@@ -50,6 +39,11 @@ h3 {
   padding: 1rem 0;
   margin: 0 1rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  color: white;
+}
+
+.link-li:hover {
+  background: rgba(0, 0, 0, 0.05);
 }
 
 #nav.active #menu {
