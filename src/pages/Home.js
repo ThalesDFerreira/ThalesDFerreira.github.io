@@ -9,15 +9,12 @@ import LogoAboult from '../assets/aboult.jpg';
 class Home extends React.Component {
   render() {
     return (
-      <div className="container-main">
+      <div>
         <Header />
-        <main>
+        <main className="container-main">
           <div id="container-div-main">
             <div>
-              {/* <img className="image-avatar" src={} alt="Home" /> */}
-              <h1 className="text" id="text1">Seja Bem Vindo !</h1>
-              <h2 className="text" id="text2">Olá, muito prazer! Meu nome é Thales Ferreira sou advogado e esses são alguns trabalhos do meu portfólio.</h2>
-              <h2 className="text" id="text3">O que você gostaria de ver primeiro?</h2>
+              <h2 className="text" id="text2">Olá, muito prazer! Meu nome é Thales Ferreira e esse é o meu portfólio.</h2>
             </div>
             <div className="div-container-conteudo">
               <div className="links-conteudo">
