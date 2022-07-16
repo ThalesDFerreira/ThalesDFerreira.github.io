@@ -6,14 +6,21 @@
 
 .container-projetos {
   background-image: url(../assets/background2.png);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .text {
   color: white;
-  /* text-shadow: rgb(188, 182, 182) 0.1em 0.1em 0.2em; */
   margin: 25px;
   display: flex;
   justify-content: center;

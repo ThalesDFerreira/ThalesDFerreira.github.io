@@ -21,17 +21,17 @@ class Home extends React.Component {
             </div>
             <div className="div-container-redirects">
               <div className="links-redirects">
-                <Link className="link-btn" to="/projects">
+                <Link to="/projects">
                   <button type="button" id="btn-works">Trabalhos (GitHub)</button>
                 </Link>
               </div>
               <div className="links-redirects">
-                <Link className="link-btn" to="/aboult">
+                <Link to="/aboult">
                   <button type="button" id="btn-aboult">Sobre Mim</button>
                 </Link>
               </div>
               <div className="links-redirects">
-                <Link className="link-btn" to="/projects">
+                <Link to="/contacts">
                   <button type="button" id="btn-contacts">Contatos</button>
                 </Link>
               </div>
