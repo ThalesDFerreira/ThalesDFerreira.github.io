@@ -12,33 +12,92 @@ body {
 
 .container-main {
   background-image: url(../assets/background1.png);
-  /* background-repeat: no-repeat; */
   background-size: cover;
-  /* background-position: center top; */
   width: 100%;
   min-height: 100vh;
-  /* height: 100%; */
   color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.text {
-  color: white;
-  text-shadow: rgb(188, 182, 182) 0.1em 0.1em 0.2em;
-  margin: 25px;
+#container-div-main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20%;
 }
 
-.div-container-conteudo {
+#text1 {
+  font-size: 27px;
+  padding: 3px;
+}
+
+#text2 {
+  font-size: 40px;
+  padding: 3px;
+}
+
+#text3 {
+  font-size: 20px;
+  padding: 3px;
+}
+
+.div-container-redirects {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  margin-top: 30px;
+  padding: 3px;
+}
+
+#btn-works {
+  border-radius: 40px;
+  background-color: rgb(3, 219, 94);
+  color: white;
+  margin-left: 10px;
+  font-weight: 550;
+  padding: 12px 20px;
+}
+
+#btn-works:hover {
+  background-color: rgb(15, 138, 66);
+  color: rgb(3, 219, 94);
+  box-shadow: none;
+}
+
+#btn-aboult {
+  border-radius: 40px;
+  background-color: white;
+  color: rgb(3, 219, 94);
+  margin-left: 10px;
+  font-weight: 550;
+  padding: 12px 20px;
+}
+
+#btn-aboult:hover {
+  background-color: rgb(3, 219, 94);
+  color: white;
+  box-shadow: none;
+}
+
+#btn-contacts {
+  border-radius: 40px;
+  background-color: rgb(39, 49, 89);
+  color: rgb(3, 219, 94);
+  margin-left: 10px;
+  border: rgb(3, 219, 94);
+  font-weight: 550;
+  padding: 12px 20px;
+}
+
+#btn-contacts:hover {
+  background-color: rgb(3, 219, 94);
+  color: rgb(39, 49, 89);
+  box-shadow: none;
 }
 
 .links-conteudo {
@@ -61,12 +120,5 @@ body {
   justify-content: center;
   color: rgb(0, 0, 0);
   text-shadow: rgb(188, 182, 182) 0.1em 0.1em 0.2em;
-  text-decoration: none;
-}
-
-.image-cards {
-  border-radius: 30px;
-  width: 300px;
-  height: 200px;
   text-decoration: none;
 }
