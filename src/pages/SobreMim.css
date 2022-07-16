@@ -6,12 +6,17 @@
 
 .container-aboult {
   background-image: url(../assets/background2.png);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
-}
-
-.container-aboult {
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: right;
   display: flex;
 }
 
@@ -21,13 +26,6 @@
   align-items: center;
 }
 
-.image-avatar {
-  margin-left: 30px;
-  margin-top: 10px;
-  max-width: 300px;
-  max-height: 300px;
-}
-
 #minha-imagem {
   border-radius: 20%;
   margin-top: 20px;
@@ -35,8 +33,7 @@
 
 .text {
   color: white;
-  /* text-shadow: rgb(188, 182, 182) 0.1em 0.1em 0.2em; */
-  margin: 25px;
+  margin: 10px;
   display: flex;
   justify-content: center;
 }

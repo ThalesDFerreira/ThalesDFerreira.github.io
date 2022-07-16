@@ -5,11 +5,11 @@ import "./Projetos.css";
 class Projetos extends React.Component {
   render() {
     return (
-      <div className="container-projetos">
+      <>
         <Header />
+      <div className="container-projetos">
         <main>
           <div>
-            {/* <img className="image-avatar" src={} alt="Projetos" /> */}
             <h1 className="text">Principais Projetos</h1>
           </div>
           <div>
@@ -34,9 +34,9 @@ class Projetos extends React.Component {
                 </div>
               </div>
           </div>
-
         </main>
       </div>
+      </>
     );
   }
 }
