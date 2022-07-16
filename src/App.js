@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Projetos from './pages/Projetos';
 import Contatos from './pages/Contatos';
 import SobreMim from './pages/SobreMim';
+import Redirects from './pages/Redirects';
 
 class App extends Component {
   render() {
@@ -12,9 +13,10 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/projects" component={Projetos} />
-          <Route exact path="/contacts" component={Contatos} />
-          <Route exact path="/aboult" component={SobreMim} />
+          <Route path="/redirect" component={Redirects} />
+          <Route path="/projects" component={Projetos} />
+          <Route path="/contacts" component={Contatos} />
+          <Route path="/aboult" component={SobreMim} />
         </Switch>
       </BrowserRouter>
     );

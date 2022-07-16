@@ -9,6 +9,10 @@ h3 {
   color: rgb(3, 219, 94);
 }
 
+#hamburger {
+  color: white;
+}
+
 #header {
   font-size: 20px;
   box-sizing: border-box;
@@ -91,4 +95,8 @@ h3 {
 #nav.active #hamburger::after {
   transform: rotate(-135deg);
   top: -7px;
+}
+
+#link1 {
+  color: rgb(3, 219, 94);
 }
