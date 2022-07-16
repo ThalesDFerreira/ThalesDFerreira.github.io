@@ -14,22 +14,24 @@ body {
   background-image: url(../assets/background1.png);
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  margin-left: 5%;
 }
 
 #container-div-main {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-left: 20%;
+  margin-top: 300px;
 }
 
 #text1 {
@@ -50,7 +52,7 @@ body {
 .div-container-redirects {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 3px;
 }
 
@@ -121,4 +123,66 @@ body {
   color: rgb(0, 0, 0);
   text-shadow: rgb(188, 182, 182) 0.1em 0.1em 0.2em;
   text-decoration: none;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-home {
+    margin-left: 3%;
+  }
+
+  #text1 {
+    font-size: 23px;
+  }
+
+  #text2 {
+    font-size: 35px;
+  }
+
+  #text3 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container-home {
+    margin-left: 3%;
+  }
+
+  #container-div-main {
+    margin-top: 280px;
+  }
+
+  #text1 {
+    font-size: 18px;
+  }
+
+  #text2 {
+    font-size: 28px;
+  }
+
+  #text3 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container-home {
+    margin-left: 1%;
+  }
+
+  #container-div-main {
+    margin-top: 50px;
+  }
+
+  #text1 {
+    font-size: 13px;
+  }
+
+  #text2 {
+    font-size: 20px;
+  }
+
+  #text3 {
+    font-size: 14px;
+  }
 }
