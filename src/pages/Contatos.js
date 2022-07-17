@@ -13,10 +13,10 @@ class Contatos extends React.Component {
     return (
       <>
         <Header />
-        <main>
+        <main className="container-main">
           <div className="container-contatos">
             <h1 className="text">Contatos</h1>
-            <div className="div-container-contatos">
+            <div className="div-container-contatos1">
               <div className="links-contatos">
                 <a className="link-logo" href="mailto:thalesferreira190@gmail.com/">
                   <img className="image-logo" src={LogoGmail} alt="Gmail" />
@@ -32,6 +32,8 @@ class Contatos extends React.Component {
                   <img className="image-logo" src={LogoGitHub} alt="GitHub" />
                 </a>
               </div>
+            </div>
+            <div className="div-container-contatos2">
               <div className="links-contatos">
                 <a className="link-logo" href="https://api.whatsapp.com/send?phone=5516992746725">
                   <img className="image-logo" src={LogoWhatsApp} alt="WhatsApp" />
