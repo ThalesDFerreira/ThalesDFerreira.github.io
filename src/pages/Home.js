@@ -8,7 +8,7 @@ class Home extends React.Component {
     return (
       <div>
         <Header />
-        <main className="container-main">
+        <main className="container-main-base">
           <div className="container-home">
             <div id="container-div-main">
               <div>
