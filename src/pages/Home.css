@@ -10,7 +10,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.container-main {
+.container-main-base {
   background-image: url(../assets/background1.png);
   background-size: cover;
   width: 100%;
