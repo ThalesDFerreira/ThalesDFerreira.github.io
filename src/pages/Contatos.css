@@ -4,49 +4,76 @@
   box-sizing: border-box;
 }
 
-.container-contatos {
+.container-main {
   background-image: url(../assets/background2.png);
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
-  color: white;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.container-contatos {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
-.text {
-  color: white;
-  margin: 25px;
-  display: flex;
-  justify-content: center;
-}
-
-.div-container-contatos {
+.div-container-contatos1, .div-container-contatos2  {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  margin-top: 30px;
-}
-
-.links-contatos {
-  background-color: rgb(226, 222, 222);
-  border-radius: 30px;
-  border: rgb(226, 222, 222) solid 2px;
-  box-shadow: 6px 6px 4px rgb(206, 203, 203);
+  margin-top: 70px;
   margin: 30px;
 }
 
-.links-contatos:hover {
-  background-color: rgba(206, 203, 203, 0.75);
-  box-shadow: none;
+.links-contatos {
+  margin: 20px;
 }
 
 .image-logo {
   width: 130px;
   height: 130px;
+}
+
+.image-logo:hover {
+  width: 135px;
+  height: 135px;
+  margin: -3px;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .links-contatos {
+    margin: 15px;
+  }
+  
+  .image-logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .image-logo:hover {
+    width: 125px;
+    height: 125px;
+    margin: -3px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .links-contatos {
+    margin: 5px;
+  }
+  
+  .image-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .image-logo:hover {
+    width: 105px;
+    height: 105px;
+    margin: -3px;
+  }
 }
