@@ -73,32 +73,31 @@ body {
 
 #btn-aboult {
   border-radius: 40px;
-  background-color: white;
-  color: rgb(3, 219, 94);
+  background-color: rgb(3, 219, 94);
+  color: white;
   margin-left: 10px;
   font-weight: 550;
   padding: 12px 20px;
 }
 
 #btn-aboult:hover {
-  background-color: rgb(3, 219, 94);
-  color: white;
+  background-color: rgb(15, 138, 66);
+  color: rgb(3, 219, 94);
   box-shadow: none;
 }
 
 #btn-contacts {
   border-radius: 40px;
-  background-color: rgb(39, 49, 89);
-  color: rgb(3, 219, 94);
+  background-color: rgb(3, 219, 94);
+  color: white;
   margin-left: 10px;
-  border: rgb(3, 219, 94);
   font-weight: 550;
   padding: 12px 20px;
 }
 
 #btn-contacts:hover {
-  background-color: rgb(3, 219, 94);
-  color: rgb(39, 49, 89);
+  background-color: rgb(15, 138, 66);
+  color: rgb(3, 219, 94);
   box-shadow: none;
 }
 
