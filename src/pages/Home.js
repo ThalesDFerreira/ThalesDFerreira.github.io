@@ -50,12 +50,16 @@ class Home extends React.Component {
               <div className="div-container-redirects">
                 <div className="links-redirects">
                   <Link to="/projects">
-                    <button type="button" id="btn-works">PORTFÓLIO</button>
+                    <button type="button" id="btn-works">
+                      PORTFÓLIO
+                    </button>
                   </Link>
                 </div>
                 <div className="links-redirects">
                   <Link to="/aboult">
-                    <button type="button" id="btn-works">SOBRE MIM</button>
+                    <button type="button" id="btn-works">
+                      SOBRE MIM
+                    </button>
                   </Link>
                 </div>
               </div>
