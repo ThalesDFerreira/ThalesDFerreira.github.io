@@ -30,7 +30,6 @@ class Header extends React.Component {
             <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link1" to="/">Início</Link></li>
             <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link2" to="/projects">Projetos</Link></li>
             <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link4" to="/aboult">Sobre mim</Link></li>
-            <li><Link style={{ paddingLeft: 13, textDecoration: 'none' }} className="link-li" id="link3" to="/contacts">Contatos</Link></li>
           </ul>
         </nav>
       </header >
