@@ -14,27 +14,27 @@ class Home extends React.Component {
         <main className="container-main-base">
           <div className="div-container-contatos1">
             <div className="links-contatos">
-              <a className="link-logo" href="https://api.whatsapp.com/send?phone=5516992746725">
+              <a className="link-logo" href="https://api.whatsapp.com/send?phone=5516992746725" target="_blank" rel="noopener noreferrer">
                 <img className="image-logo" src={LogoWhatsApp} alt="WhatsApp" />
               </a>
             </div>
             <div className="links-contatos">
-              <a className="link-logo" href="https://www.linkedin.com/in/thales-david-ferreira-a47378107/">
+              <a className="link-logo" href="https://www.linkedin.com/in/thales-david-ferreira-a47378107/" target="_blank" rel="noopener noreferrer">
                 <img className="image-logo" src={LogoLinkedin} alt="LinkedIn" />
               </a>
             </div>
             <div className="links-contatos">
-              <a className="link-logo" href="https://github.com/ThalesDFerreira/">
+              <a className="link-logo" href="https://github.com/ThalesDFerreira/" target="_blank" rel="noopener noreferrer">
                 <img className="image-logo" src={LogoGitHub} alt="GitHub" />
               </a>
             </div>
             <div className="links-contatos">
-              <a className="link-logo" href="https://www.facebook.com/thalesferreira190/">
+              <a className="link-logo" href="https://www.facebook.com/thalesferreira190/" target="_blank" rel="noopener noreferrer">
                 <img className="image-logo" src={LogoFacebook} alt="Facebook" />
               </a>
             </div>
             <div className="links-contatos">
-              <a className="link-logo" href="mailto:thalesferreira190@gmail.com/">
+              <a className="link-logo" href="mailto:thalesferreira190@gmail.com/" target="_blank" rel="noopener noreferrer">
                 <img className="image-logo" src={LogoGmail} alt="Gmail" />
               </a>
             </div>
@@ -42,23 +42,20 @@ class Home extends React.Component {
           <div className="container-home">
             <div id="container-div-main">
               <div>
-                <h2 id="text1">Olá, muito prazer!</h2>
+                <h2 id="text1">Olá, eu sou Thales.</h2>
               </div>
               <div>
-                <h2 id="text2">Sou Desenvolvedor de Software !</h2>
-              </div>
-              <div>
-                <h2 id="text3">Meu nome é Thales Ferreira e esse é meu portfólio.</h2>
+                <h2 id="text2">Muito prazer ! Sou Desenvolvedor de Software.</h2>
               </div>
               <div className="div-container-redirects">
                 <div className="links-redirects">
                   <Link to="/projects">
-                    <button type="button" id="btn-works">Trabalhos (GitHub)</button>
+                    <button type="button" id="btn-works">PORTFÓLIO</button>
                   </Link>
                 </div>
                 <div className="links-redirects">
                   <Link to="/aboult">
-                    <button type="button" id="btn-aboult">Sobre Mim</button>
+                    <button type="button" id="btn-works">SOBRE MIM</button>
                   </Link>
                 </div>
               </div>
