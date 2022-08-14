@@ -165,6 +165,10 @@ button.btn-works:hover {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .container-main-base {
+    background-position: -600px;
+  }
+
   .div-container-contatos1 {
     justify-content: flex-start;
     margin-left: 40px;
@@ -180,7 +184,7 @@ button.btn-works:hover {
   }
 
   #container-div-main {
-    margin-top: 130px;
+    margin-top: 230px;
   }
   
   #text1 {
@@ -203,6 +207,10 @@ button.btn-works:hover {
 }
 
 @media (min-width: 360px) and (max-width: 480px) {
+  .container-main-base {
+    background-position: -500px;
+  }
+  
   .div-container-contatos1 {
     justify-content: flex-start;
     margin-left: 10px;
@@ -218,7 +226,7 @@ button.btn-works:hover {
   }
 
   #container-div-main {
-    margin-top: 80px;
+    margin-top: 200px;
   }
   
   #text1 {
