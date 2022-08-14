@@ -166,7 +166,7 @@ button.btn-works:hover {
 
 @media (min-width: 481px) and (max-width: 768px) {
   .container-main-base {
-    background-position: -600px;
+    background-position: -900px;
   }
 
   .div-container-contatos1 {
@@ -208,7 +208,7 @@ button.btn-works:hover {
 
 @media (min-width: 360px) and (max-width: 480px) {
   .container-main-base {
-    background-position: -500px;
+    background-position: -700px;
   }
   
   .div-container-contatos1 {
