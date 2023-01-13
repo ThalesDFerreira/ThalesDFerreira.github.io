@@ -41,6 +41,15 @@ class Projetos extends React.Component {
                     <h2>Código</h2>
                   </a>
                 </div>
+                <div className="links-container">
+                  <a style={{ textDecoration: 'none' }} className="link" href="https://ng-cash-frontend-23v2c26xp-thalesdferreira.vercel.app/">
+                    <img className="image-link" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub" />
+                    <h2>Projeto<br />NGCash</h2>
+                  </a>
+                  <a style={{ textDecoration: 'none' }} className="link" href="https://github.com/ThalesDFerreira/NGCash">
+                    <h2>Código</h2>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
