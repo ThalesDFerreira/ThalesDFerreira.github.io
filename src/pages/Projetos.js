@@ -50,6 +50,12 @@ class Projetos extends React.Component {
                     <h2>Código</h2>
                   </a>
                 </div>
+                <div className="links-container">
+                  <a style={{ textDecoration: 'none' }} className="link" href="https://github.com/ThalesDFerreira/Projeto-App-Delivery">
+                    <img className="image-link" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub" />
+                    <h2>Projeto<br />App Delivery</h2>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
