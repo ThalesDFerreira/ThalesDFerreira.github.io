@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.861083b0.chunk.css",
-    "main.js": "/github-page/static/js/main.68b97cf4.chunk.js",
-    "main.js.map": "/github-page/static/js/main.68b97cf4.chunk.js.map",
-    "runtime-main.js": "/github-page/static/js/runtime-main.ecaad7e5.js",
-    "runtime-main.js.map": "/github-page/static/js/runtime-main.ecaad7e5.js.map",
-    "static/js/2.ee32f5d0.chunk.js": "/github-page/static/js/2.ee32f5d0.chunk.js",
-    "static/js/2.ee32f5d0.chunk.js.map": "/github-page/static/js/2.ee32f5d0.chunk.js.map",
-    "static/js/3.fdb279de.chunk.js": "/github-page/static/js/3.fdb279de.chunk.js",
-    "static/js/3.fdb279de.chunk.js.map": "/github-page/static/js/3.fdb279de.chunk.js.map",
-    "index.html": "/github-page/index.html",
-    "static/css/main.861083b0.chunk.css.map": "/github-page/static/css/main.861083b0.chunk.css.map",
-    "static/js/2.ee32f5d0.chunk.js.LICENSE.txt": "/github-page/static/js/2.ee32f5d0.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/github-page/static/media/background1.3bdd8a22.png",
-    "static/media/SobreMim.css": "/github-page/static/media/background2.39568e23.png",
-    "static/media/fotoThales.90e8cdae.jpg": "/github-page/static/media/fotoThales.90e8cdae.jpg",
-    "static/media/gmail.b90d5829.png": "/github-page/static/media/gmail.b90d5829.png",
-    "static/media/linkedin.15cf1c64.png": "/github-page/static/media/linkedin.15cf1c64.png",
-    "static/media/whatsapp.ef889236.png": "/github-page/static/media/whatsapp.ef889236.png"
+    "main.css": "/static/css/main.c99620a4.chunk.css",
+    "main.js": "/static/js/main.68b97cf4.chunk.js",
+    "main.js.map": "/static/js/main.68b97cf4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3c0d38ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3c0d38ac.js.map",
+    "static/js/2.ee32f5d0.chunk.js": "/static/js/2.ee32f5d0.chunk.js",
+    "static/js/2.ee32f5d0.chunk.js.map": "/static/js/2.ee32f5d0.chunk.js.map",
+    "static/js/3.fdb279de.chunk.js": "/static/js/3.fdb279de.chunk.js",
+    "static/js/3.fdb279de.chunk.js.map": "/static/js/3.fdb279de.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c99620a4.chunk.css.map": "/static/css/main.c99620a4.chunk.css.map",
+    "static/js/2.ee32f5d0.chunk.js.LICENSE.txt": "/static/js/2.ee32f5d0.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/background1.3bdd8a22.png",
+    "static/media/SobreMim.css": "/static/media/background2.39568e23.png",
+    "static/media/fotoThales.90e8cdae.jpg": "/static/media/fotoThales.90e8cdae.jpg",
+    "static/media/gmail.b90d5829.png": "/static/media/gmail.b90d5829.png",
+    "static/media/linkedin.15cf1c64.png": "/static/media/linkedin.15cf1c64.png",
+    "static/media/whatsapp.ef889236.png": "/static/media/whatsapp.ef889236.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ecaad7e5.js",
+    "static/js/runtime-main.3c0d38ac.js",
     "static/js/2.ee32f5d0.chunk.js",
-    "static/css/main.861083b0.chunk.css",
+    "static/css/main.c99620a4.chunk.css",
     "static/js/main.68b97cf4.chunk.js"
   ]
 }
