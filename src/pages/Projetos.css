@@ -104,6 +104,17 @@
 }
 
 @media (min-width: 360px) and (max-width: 480px) {
+  .container-projetos {
+    margin-left: 2px;
+  }
+
+  .div-container-projects {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+  }
+
   .links-container {
     margin: 8px;
     margin-top: 50px;
