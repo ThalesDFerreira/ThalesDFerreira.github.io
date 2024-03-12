@@ -13,7 +13,7 @@ class Home extends React.Component {
       <div>
         <main className="container-main-base">
           <div className="div-container-contatos1">
-            <div className="links-contatos">
+            <div className="links-contatos item-link">
               <a className="link-logo" href="https://api.whatsapp.com/send?phone=5516992746725" target="_blank" rel="noopener noreferrer">
                 <img className="image-logo" src={LogoWhatsApp} alt="WhatsApp" />
               </a>
