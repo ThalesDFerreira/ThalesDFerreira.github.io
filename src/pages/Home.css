@@ -27,7 +27,7 @@ body {
   justify-content: flex-end;
 }
 
-.div-container-contatos1:hover > :not(:hover) {
+.div-container-contatos1:hover> :not(:hover) {
   opacity: .4;
   transform: scale(0.9);
 }
