@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Paleta */
+  --bg: #0a0e1a;
+  --bg-soft: #0e1424;
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.18);
+
+  --text: #e8ebf4;
+  --text-muted: #9aa6bd;
+
+  --accent: #22d3ee;
+  --accent-2: #a855f7;
+  --accent-3: #34d399;
+  --gradient: linear-gradient(120deg, #22d3ee 0%, #818cf8 50%, #a855f7 100%);
+
+  --shadow: 0 10px 40px -12px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 0 1px rgba(34, 211, 238, 0.25), 0 12px 40px -8px rgba(129, 140, 248, 0.45);
+
+  --radius: 18px;
+  --radius-sm: 12px;
+  --font-head: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
 
 * {
   margin: 0;
@@ -6,6 +32,51 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-body);
+  color: var(--text);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(60rem 60rem at 110% -10%, rgba(168, 85, 247, 0.18), transparent 60%),
+    radial-gradient(50rem 50rem at -10% 10%, rgba(34, 211, 238, 0.16), transparent 55%),
+    radial-gradient(40rem 40rem at 50% 120%, rgba(129, 140, 248, 0.14), transparent 60%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+/* Texto com gradiente reutilizável */
+.gradient-text {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Scrollbar moderna */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--accent), var(--accent-2));
+  border-radius: 100rem;
+  border: 2px solid var(--bg);
+}
+
+::selection {
+  background: rgba(168, 85, 247, 0.35);
+  color: #fff;
 }
